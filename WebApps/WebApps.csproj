@@ -183,9 +183,14 @@
     <Compile Include="Migrations\201911041005382_BannerModelAndIdentity.Designer.cs">
       <DependentUpon>201911041005382_BannerModelAndIdentity.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201911041020082_BannerTrackingModelAndIdentity.cs" />
+    <Compile Include="Migrations\201911041020082_BannerTrackingModelAndIdentity.Designer.cs">
+      <DependentUpon>201911041020082_BannerTrackingModelAndIdentity.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Banner.cs" />
+    <Compile Include="Models\BannerTracking.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -267,6 +272,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201911041005382_BannerModelAndIdentity.resx">
       <DependentUpon>201911041005382_BannerModelAndIdentity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911041020082_BannerTrackingModelAndIdentity.resx">
+      <DependentUpon>201911041020082_BannerTrackingModelAndIdentity.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

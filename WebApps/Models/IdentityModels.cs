@@ -21,6 +21,8 @@ namespace WebApps.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public DbSet<Banner> banners { get; set; }
+        public DbSet<BannerTracking> bannerTrackings { get; set; }
+
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
