@@ -187,6 +187,10 @@
     <Compile Include="Migrations\201911041020082_BannerTrackingModelAndIdentity.Designer.cs">
       <DependentUpon>201911041020082_BannerTrackingModelAndIdentity.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201911041042401_BannerTrackingForeignKey.cs" />
+    <Compile Include="Migrations\201911041042401_BannerTrackingForeignKey.Designer.cs">
+      <DependentUpon>201911041042401_BannerTrackingForeignKey.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Banner.cs" />
@@ -252,6 +256,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Home\NameAndLink.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -275,6 +280,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201911041020082_BannerTrackingModelAndIdentity.resx">
       <DependentUpon>201911041020082_BannerTrackingModelAndIdentity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911041042401_BannerTrackingForeignKey.resx">
+      <DependentUpon>201911041042401_BannerTrackingForeignKey.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
